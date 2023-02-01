@@ -1,0 +1,2 @@
+parent of image box should have height and width info,
+so we can center image

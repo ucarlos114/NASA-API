@@ -1,0 +1,80 @@
+html {
+    background-image: url("stars.jpg");
+    /* background-color: #050A30; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#request {
+    /* border: solid 2px gold; */
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    height: 3rem;
+    margin: 0 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgdate {
+    margin: 0 1rem 0 1rem;
+    height: 1.75rem;
+    border-radius: 0.4rem;
+}
+
+#send {
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+#send:hover {
+    background-color: aqua;
+    color: black;
+}
+
+main {
+    background-color: darkslategray;
+    /* border: solid 2px gold; */
+    height: 50%;
+    color: aqua;
+    display: grid;
+    grid-template-columns: 50% auto 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#col1, #col2 {
+    /* background-color: #F9F6EE; */
+    height: 80%;
+    /* border: solid 2px red; */
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#col2 {
+    background-image: url("stars.jpg");
+}
+
+img {
+    /* border: solid 2px white; */
+    object-fit: contain;
+    width:100%;
+    height:100%;
+}
+
+#text {
+    /* border: solid 2px white; */
+    font-size: 1vh;
+    margin: 5%;
+}
