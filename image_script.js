@@ -1,5 +1,7 @@
+// store API key
 const apiURL = 'https://api.nasa.gov/planetary/apod?api_key=TCWMLDyd5B8b3XFgbuoV6CL3dLGab9pxM4XGwk8E';
 
+// main function to update webpage with new info
 function updateCols(explanation, url, title, date, copyright) {
     // reset body
     clearCols();
@@ -33,6 +35,7 @@ function updateCols(explanation, url, title, date, copyright) {
     document.getElementById("date").appendChild(img_date);
 }
 
+// helper function that clears old info on the page
 function clearCols() {
     var col1 = document.getElementById("col1");
     var col2 = document.getElementById("col2");
@@ -49,6 +52,7 @@ function clearCols() {
     }
 }
 
+// API call function that retrieves the NASA json based on input value
 async function NASAfetch() {
     var date = document.getElementById("imgdate").value;
     try {
