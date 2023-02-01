@@ -1,17 +1,15 @@
 html {
     background-image: url("stars.jpg");
-    /* background-color: #050A30; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
     color: white;
     text-align: center;
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 
 #request {
-    /* border: solid 2px gold; */
     text-align: center;
     color: white;
     font-size: x-large;
@@ -42,39 +40,45 @@ header {
 
 main {
     background-color: darkslategray;
-    /* border: solid 2px gold; */
-    height: 50%;
     color: aqua;
-    display: grid;
-    grid-template-columns: 50% auto 50%;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
+    /* border: solid 2px white; */
+    height: 600px;
+    text-align: center;
+    margin: 2vw;
 }
 
-#col1, #col2 {
-    /* background-color: #F9F6EE; */
-    height: 80%;
-    /* border: solid 2px red; */
+#grid-container {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
     margin: 0 1rem;
     display: flex;
+    width:50%;
     align-items: center;
-    justify-content: center;
+}
+
+#col1 {
+    background-color: gray;
+    /* text-align:justify; */
 }
 
 #col2 {
-    background-image: url("stars.jpg");
+    background-color: blanchedalmond;
+}
+
+.row {
+    height: 15%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 img {
-    /* border: solid 2px white; */
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    width:100%;
-    height:100%;
-}
-
-#text {
-    /* border: solid 2px white; */
-    font-size: 1vh;
-    margin: 5%;
 }
