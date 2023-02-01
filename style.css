@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    color: white;
+    color: aqua;
     text-align: center;
     font-size: xx-large;
 }
@@ -40,7 +40,6 @@ header {
 
 main {
     background-color: darkslategray;
-    color: aqua;
     /* border: solid 2px white; */
     height: 600px;
     text-align: center;
@@ -75,6 +74,11 @@ main {
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    color: aqua;
+}
+
+#title-row {
+    color: white;
 }
 
 img {
